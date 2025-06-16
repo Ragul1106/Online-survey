@@ -1,0 +1,66 @@
+.survey-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.survey-title {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.survey-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.saving-indicator {
+  color: #4CAF50;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.question-group {
+  margin-bottom: 24px;
+}
+
+.question-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.radio-option, .checkbox-option {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.radio-option input, .checkbox-option input {
+  margin-right: 8px;
+}
+
+.loading-message {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
